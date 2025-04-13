@@ -17,4 +17,10 @@ public class Weapon extends Item {
     public int getDamage() {
         return damage;
     }
+
+    @Override
+    public String toString() {
+        return "\"Weapon\":\"" + type + "\",\"Name\":\"" + name + "\",\"Quantity\":" + quantity + ",\"Damage\":" + damage; 
+    }
+
 }

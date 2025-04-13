@@ -16,4 +16,9 @@ public class Fruit extends Item {
     public String toString() {
         return "Item: " + name + ", Quantity: " + quantity;
     } */
+    @Override
+    public String toString() {
+        return "\"Fruit\":\"" + type + "\",\"Name\":\"" + name + "\",\"Quantity\":" + quantity; 
+    }
+
 }
