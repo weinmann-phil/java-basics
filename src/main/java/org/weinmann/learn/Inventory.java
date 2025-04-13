@@ -13,9 +13,14 @@ public class Inventory {
         items.add(item);
     }
 
-    public void displayInventory() {
+    /* public void displayInventory() {
         for (Item item : items) {
             System.out.println("Item{\"Name\":\"" + item.getName() + "\",\"Quantity\":" + item.getQuantity() + "}");
+        }
+    }*/
+    public void displayInventory() {
+        for (Item item : items) {
+            System.out.println("Item{" + item.toString() + "}");
         }
     }
 }

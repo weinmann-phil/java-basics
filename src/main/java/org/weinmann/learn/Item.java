@@ -16,4 +16,9 @@ public class Item {
     public int getQuantity() {
         return quantity;
     }
+
+    @Override
+    public String toString() {
+        return "\"Name\":\"" + name + "\",\"Quantity\":" + quantity; 
+    }
 }

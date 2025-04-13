@@ -8,11 +8,13 @@ public class App {
 
         Inventory inventory = new Inventory();
 
-        Item item1 = new Item("Apple", 20);
-        Item item2 = new Item("Sword", 2);
+        Item fruit = new Item("Apple", 20);
+        Item weapon = new Item("Sword", 2);
+        //Fruit fruit = new Fruit("MacIntosh", "Apple", 20);
+        //Weapon weapon = new Weapon("Dagger", "Sword", 2, 75);
 
-        inventory.addItem(item1);
-        inventory.addItem(item2);
+        inventory.addItem(fruit);
+        inventory.addItem(weapon);
 
         inventory.displayInventory();
         System.out.println("Hello World!");
