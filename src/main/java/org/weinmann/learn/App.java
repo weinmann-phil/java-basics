@@ -1,5 +1,7 @@
 package org.weinmann.learn;
 
+import org.weinmann.learn.inventory.*;
+
 /**
  * Hello world!
  */

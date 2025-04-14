@@ -1,4 +1,4 @@
-package org.weinmann.learn;
+package org.weinmann.learn.inventory;
 
 public class Item {
     public String name;
